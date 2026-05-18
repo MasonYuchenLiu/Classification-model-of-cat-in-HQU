@@ -71,8 +71,8 @@ After running, Gradio will provide a local URL (e.g., http://127.0.0.1:7860). Op
 Model will be automatically downloaded on first run
 
 下载地址 / Download URL:
-
 https://github.com/MasonYuchenLiu/Classification-model-of-cat-in-HQU/raw/main/cat_classifier.pth
+
 注意事项 / Notes
 确保网络可访问 GitHub，以便自动下载模型
 如果模型文件过大，可考虑缓存或本地保存
@@ -80,7 +80,11 @@ https://github.com/MasonYuchenLiu/Classification-model-of-cat-in-HQU/raw/main/ca
 Make sure you can access GitHub to download the model automatically
 If the model is large, consider caching locally
 Python version >=3.8 is recommended
-联系 / Contact
 
-如有问题，请在 GitHub Issues 提问。
+app.py运行完毕后，会在输出区域提示一个URL,直接点击即可
+Once `app.py` has finished running, a URL will appear in the output area; simply click on it to proceed.
+
+
+联系 / Contact
+如有问题，请在 GitHub Issues 提问。或向yuchen.liu@connect.um.edu.mo
 If you have questions, please open an issue on GitHub.
